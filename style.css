@@ -1,0 +1,90 @@
+body {
+    background-image: url("R.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+   
+
+    }
+    h1{
+      color:beige;
+      font-size:xx-large;
+      font-display: bold;
+      font-weight: 800;
+    }
+    
+.stores {
+    display: flex;
+    justify-content: space-between;
+    margin: 55px ;
+    
+   
+  }
+
+  .store {
+    width: 35%;
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+    background-color: bisque;
+    min-height:max-content;
+    
+  }
+
+  .item {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .item-price{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+    
+  
+
+  .cart {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    border-radius:1%;
+    background-color:bisque;
+   
+    
+  }
+
+  table {
+    width: 100%;
+    text-align: left;
+    margin: 20px 0;
+    opacity: 1;
+    border: 2%;
+   
+
+
+  }
+
+  tr {
+    border-bottom: 1px solid gray;
+  }
+
+  td,
+  th {
+    padding: 10px;
+  }
+  .scroll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color:black;
+    font-size:bold;
+    scroll-behavior: smooth;
+  }
+  
